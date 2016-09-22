@@ -306,9 +306,9 @@
   <widget class="QLabel" name="label_showCan">
    <property name="geometry">
     <rect>
-     <x>410</x>
+     <x>390</x>
      <y>470</y>
-     <width>241</width>
+     <width>301</width>
      <height>51</height>
     </rect>
    </property>
@@ -317,7 +317,7 @@
 font: 75 italic 22pt &quot;Ubuntu&quot;;</string>
    </property>
    <property name="text">
-    <string>TextLabel</string>
+    <string>TextLabel   </string>
    </property>
    <property name="alignment">
     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>

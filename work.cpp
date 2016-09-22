@@ -890,39 +890,39 @@ void Work::paintEvent(QPaintEvent *event)
 
                         if(tuoliguntong<ruby[0])//脱粒滚筒转速
                         {
-                            pixShanshuo.load("./imagejy/english/shanshuo/04m.png");//11.   jpgenglish/shanshuo/
+                            pixShanshuo.load("./imagejy/zw/tlgt.png");//11.   jpgenglish/shanshuo/
                             paintShanshuo.drawPixmap(727,406,217,21,pixShanshuo);
                         }
 
                         if(qiesuiqizhuansu<ruby[1])//切碎器转速
                         {
-                            pixShanshuo.load("./imagejy/english/shanshuo/02.png");//11.jpg
+                            pixShanshuo.load("./imagejy/zw/qsq.png");//11.jpg
                             paintShanshuo.drawPixmap(727,342,130,20,pixShanshuo);
                         }
 
                         if(fengjizhuansu<ruby[2])//风机转速
                         {
-                            pixShanshuo.load("./imagejy/english/shanshuo/03.png");//11.jpg
+                            pixShanshuo.load("./imagejy/zw/fj.png");//11.jpg
                             paintShanshuo.drawPixmap(727,165,88,20,pixShanshuo);
                         }
                         if(futuoqi<ruby[3])//复脱器堵塞转速
                         {
-                            pixShanshuo.load("./imagejy/english/shanshuo/05.png");//11.jpg
+                            pixShanshuo.load("./imagejy/zw/ftq.png");//11.jpg
                             paintShanshuo.drawPixmap(726,224,229,21,pixShanshuo);
                         }
                         if(shengyunqi<ruby[4])//升运器堵塞转速
                         {
-                            pixShanshuo.load("./imagejy/english/shanshuo/06.png");//11.jpg
+                            pixShanshuo.load("./imagejy/zw/syq.png");//11.jpg
                             paintShanshuo.drawPixmap(726,282,207,21,pixShanshuo);
                         }
                         if(guoqiaozhuansu<ruby[5])//过桥转速
                         {
-                            pixShanshuo.load("./imagejy/english/shanshuo/01.png");//11.jpg
+                            pixShanshuo.load("./imagejy/zw/gqzs.png");//11.jpg
                             paintShanshuo.drawPixmap(727,117,112,20,pixShanshuo);
                         }
                         if(fenliguntong<ruby[6])//分离滚筒转速
                         {
-                            pixShanshuo.load("./imagejy/english/shanshuo/07.png");//11.jpg
+                            pixShanshuo.load("./imagejy/zw/flgt.png");//11.jpg
                             paintShanshuo.drawPixmap(727,464,215,23,pixShanshuo);
                         }
                    }//endof if(can_return != 0)
