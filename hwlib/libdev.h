@@ -26,10 +26,12 @@ int Set_Gpio_Dir(int gpion,int dir);
 //gpion:(GPIO1_4=32*1+4=36)
 //return:1,成功;-1\-2\-3,失败
 int Set_Gpio_H(int gpion);
+int Set_IO_H(int gpion);
 //GPIO信号置低
 //gpion:(GPIO1_4=32*1+4=36)
 //return:1,成功;-1\-2\-3,失败
 int Set_Gpio_L(int gpion);
+int Set_IO_L(int gpion);
 //倒车信号关闭
 //channel:取值{1,2,3},代表通道号
 //return:1,成功;0,失败
@@ -46,6 +48,15 @@ int Acc_Sig_on(int channel);
 //channel:取值{1,2,3},代表通道号
 //return:1,成功;0,失败
 int Acc_Sig_off(int channel);
+//切换信号源到ARM输出
+int Sig_to_arm();
+//切换信号源到视频硬解板输出
+int Sig_to_video();
+//切换倒车视频信号源
+//channel:1:acc1;2:acc2;3:acc3
+//0:失败，1:成功
+int Sig_to_acc(int channel);
+
 
 #ifdef __cplusplus   
 }   

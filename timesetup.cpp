@@ -815,7 +815,7 @@ void Timesetup::on_pushButton_9_clicked()//升运器堵塞转速 -号按钮
         syq_zs--;
         //ui->label_33->setText(QString::number(syq_zs,10));
         ui->label_33->setText(QString::number(syq_zs,10));
-        kaku_qsq = syq_zs;
+        kaku_syq = syq_zs;
         startflag = 1;
     }
     else
@@ -849,7 +849,7 @@ void Timesetup::on_pushButton_11_clicked()//升运器堵塞转速 +号按钮
         flag_bjd = false;
         syq_zs++;
          ui->label_33->setText(QString::number(syq_zs,10));
-        kaku_qsq = syq_zs;
+        kaku_syq = syq_zs;
         startflag = 1;
     }
     else

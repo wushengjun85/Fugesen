@@ -8,6 +8,10 @@
 #include"findlook.h"
 #include"signalcan.h"
 
+
+#include "posix_qextserialport.h"
+#include <QTimer>
+
 namespace Ui {
 class Widget;
 }
@@ -34,6 +38,13 @@ private slots:
 
     void gzmslot();//故障码
 
+    void on_pushButton_clicked();
+
+
+    void readMyCom(); //读取串口 槽函数
+
+    void on_pushButton_2_clicked();
+
 private:
     Ui::Widget *ui;
     Work work;
@@ -48,6 +59,10 @@ private:
     QTimer *timergzm;
 
 
+
+
+    Posix_QextSerialPort *myCom;    //串口
+    QTimer *readTimer;    //定时器
 
 protected:
     void paintEvent(QPaintEvent *event);
